@@ -25,9 +25,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+                "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -87,12 +88,18 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/mdb-angular-ui-kit/css/mdb.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+            "node_modules/mdb-angular-ui-kit/js/mdb.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c1361e0b-12c0-4601-924c-6804512c7f16"
   }
 }
